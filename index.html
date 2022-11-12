@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+      "width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="clk.css">
+    <style> body {
+      padding: 25px;
+      background-color:rgb(219, 219, 251);
+      color: black;
+      font-size: 25px;
+    }
+    .dark-mode {
+      background-color:rgb(175, 156, 211);
+      color: white;
+    }
+    </style>
+    
+    <div id="A"> 
+    <nav class="navbar navbar-inverse" style="background:darkmagenta; opacity: 90% ; margin: 0; border-radius: 0; border:0px ;color: aquamarine; width: 100%; height: 130px;">
+      <div class="container-fluid">
+       <br> 
+       &nbsp
+
+          <a href="time.html"  style="color: #050A30; 
+            font-size:25px;
+             margin: 25px; 
+            ">Home</a>
+             &nbsp &nbsp
+            <a href="Date.html" style="color: #050A30; 
+            font-size:25px;
+             margin: 25px; 
+            ">Day & Month</a>
+             &nbsp &nbsp
+          <a href="contact.html"  style="color: #050A30; 
+            font-size:25px;
+             margin: 25px; 
+            ">Contact Me</a>
+        
+      
+            </div>
+          </div>
+        </form>
+      </div>
+    </nav>
+  </div>
+   </script>
+   <input id="clickMe" type="button" value=" Change Theme" onclick="darkMode();" />
+  <!-- <input id="clicMe" type="button" value=" Change Format" onclick="cf()" />-->
+
+    </div>
+</head>
+<body>
+   <div id="B">
+    <div id="clock"></div>  
+    
+    <script src="display.js">
+    </script>
+    <script>
+      </script>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+     
+       
+    </script>
+    </div>
+</body>
+<footer class="footer">       
+  <div class="inner">
+     <p style="color:blanchedalmond">
+        
+        <br>
+        <br>
+        &nbsp &nbsp &nbsp Copyright &#169; 2022 &nbsp Hamsi. &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<a href="">Privacy Policy</a>
+        <br>
+        <br>
+     </p>
+</div>
+</footer>
+</html>
